@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.faridrama123.R
 import com.faridrama123.core.data.Resource
 import com.faridrama123.databinding.FragmentDashboardBinding
-import com.faridrama123.ui.TeamAdapter
+import com.faridrama123.core.ui.TeamAdapter
 import com.faridrama123.ui.detail.DetailTeamActivity
 import dagger.hilt.android.AndroidEntryPoint
 

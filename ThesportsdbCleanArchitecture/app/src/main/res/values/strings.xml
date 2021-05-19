@@ -18,8 +18,7 @@
     <string name="text_stadium">Stadium: %s</string>
     <string name="text_website">Website: %s</string>
     <string name="text_instagram">Instagram: %s</string>
-
-
+    <string name="title_favorites">Favorites</string>
 
 
 </resources>

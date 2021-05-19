@@ -1,13 +1,13 @@
-package com.faridrama123.ui
+package com.faridrama123.core.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.faridrama123.R
+import com.faridrama123.core.R
+import com.faridrama123.core.databinding.ItemListTeamBinding
 import com.faridrama123.core.domain.model.Teams
-import com.faridrama123.databinding.ItemListTeamBinding
 import java.util.ArrayList
 
 class TeamAdapter : RecyclerView.Adapter<TeamAdapter.ViewHolder>() {
