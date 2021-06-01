@@ -30,7 +30,7 @@ class TeamRepository @Inject constructor(
             }
 
             override fun shouldFetch(data: List<Teams>?): Boolean {
-                return data == null || data.isEmpty()
+                return true
             }
 
             override suspend fun createCall(): Flow<ApiResponse<List<TeamsResponse>>> {

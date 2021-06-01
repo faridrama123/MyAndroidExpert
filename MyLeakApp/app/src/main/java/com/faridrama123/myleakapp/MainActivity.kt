@@ -43,8 +43,8 @@ class MainActivity : AppCompatActivity() {
         registerBroadCastReceiver()
     }
 //    Fix : unregister in onStop
-//    override fun onStop() {
-//        super.onStop()
-//        unregisterReceiver(broadcastReceiver)
-//    }
+    override fun onStop() {
+        super.onStop()
+        unregisterReceiver(broadcastReceiver)
+    }
 }
